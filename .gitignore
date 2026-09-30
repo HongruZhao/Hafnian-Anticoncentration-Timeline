@@ -1,0 +1,7 @@
+# Local review material stays outside the publishable project.
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.review/
+.private/
