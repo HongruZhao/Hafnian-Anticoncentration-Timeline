@@ -74,7 +74,7 @@ The acknowledgment describes an **18-page** manuscript and identifies the accomp
 
 Laura Shou, Adam Ehrenberg, Yu-Xin Wang, Joseph T. Iosue, and Alexey V. Gorshkov submitted **“Anticoncentration and entanglement in Gaussian boson sampling”**, arXiv:2609.01241. Its public v1 history records **17:55:00 UTC on August 27**, despite the September-formatted identifier.
 
-Theorem 2.1 gives a closed form for $M_2(k,n)=\mathbb E|\operatorname{haf}(X^{\mathsf T}X)|^4$ and identifies the sharp scaling threshold $k$ of order $n^2/\log n$ for weak anticoncentration. Here “second moment” is the second moment of the squared hafnian magnitude, hence the fourth absolute moment of the amplitude.
+Theorem 2.1 gives a closed form for $M_2(k,n)=\mathbb E|\mathrm{haf}(X^{\mathsf T}X)|^4$ and identifies the sharp scaling threshold $k$ of order $n^2/\log n$ for weak anticoncentration. Here “second moment” is the second moment of the squared hafnian magnitude, hence the fourth absolute moment of the amplitude.
 
 The **Note added** acknowledges my independent work, arXiv:2608.17065, for the closed-form moment and the same weak-anticoncentration transition. This acknowledgment concerns the August 17 moment paper. The local, high-probability small-ball estimates in my complex-Gaussian companion address the lower-tail question.
 
@@ -186,4 +186,3 @@ The complex-Gaussian manuscript follows two arXiv submission stages:
 The public record also connects the project through the September 1 Lean archive and hiding-v1 citation, the September 6 Lean update, and the September 11 hiding-v2 citation. These dates place the September 20 deposit within the development and release sequence of the complex-Gaussian work.
 
 [^dates]: Zenodo's publication-date field and record-created timestamp describe different events. For Lean v1.0.0, the [metadata](https://zenodo.org/api/records/22102635) gives `publication_date: 2026-08-25` and `created: 2026-09-01T06:30:38.827108+00:00`; my code-completion and public-release dates explain that distinction. arXiv history timestamps record submissions, which can precede public announcements.
-

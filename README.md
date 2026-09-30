@@ -13,14 +13,14 @@ A chronology of my complex-Gaussian hafnian anticoncentration work, its Lean rel
 Let $S=S^{\mathsf T}\in\mathbb C^{2n\times2n}$ have zero diagonal and independent entries above the diagonal, each with density $\pi^{-1}e^{-|z|^2}$. Write
 
 $$
-h_n=(2n-1)!!,\qquad H_n=\operatorname{haf}(S),
+h_n=(2n-1)!!,\qquad H_n=\mathrm{haf}(S),
 \qquad \mathbb E|H_n|^2=h_n.
 $$
 
 For every $n\ge1$, center $z\in\mathbb C$, and $\varepsilon\ge0$, Theorem 2.2 gives
 
 $$
-\Pr\!\left[|H_n-z|\le\varepsilon\sqrt{h_n}\right]
+\Pr\left[|H_n-z|\le\varepsilon\sqrt{h_n}\right]
 \le \min\{1,b_n\varepsilon^2\},
 \qquad
 b_n=\frac{2\Gamma(n+1/2)}{\sqrt{\pi}\,\Gamma(n)}
@@ -32,7 +32,7 @@ The paper uses independent variance-two Gaussian diagonal entries; changing thos
 Set $z=0$ and $\varepsilon=\delta/(2n)$. Since $b_n\le2n$, for every $0<\delta<1$,
 
 $$
-\Pr\!\left[
+\Pr\left[
 |H_n|<\frac{\sqrt{h_n}}{p(n,1/\delta)}
 \right]
 \le \frac{\delta^2}{2n}<\delta,
@@ -43,7 +43,7 @@ This supplies one polynomial, positive on $[1,\infty)^2$, for all $n$ and $\delt
 
 ## From finite transpose-Gram matrices to the independent ensemble
 
-The proof first establishes a bound for $\operatorname{haf}(X^{\mathsf T}X)$, where $X\in\mathbb C^{k\times2n}$ has independent standard circular complex Gaussian entries. The finite theorem assumes $n\ge1$ and $k\ge4n$; its explicit coefficient is polynomial in the regime $n^2/k=O(\log n)$.
+The proof first establishes a bound for $\mathrm{haf}(X^{\mathsf T}X)$, where $X\in\mathbb C^{k\times2n}$ has independent standard circular complex Gaussian entries. The finite theorem assumes $n\ge1$ and $k\ge4n$; its explicit coefficient is polynomial in the regime $n^2/k=O(\log n)$.
 
 For the independent symmetric theorem, the paper fixes $n$ and lets $k\to\infty$. The matrix $k^{-1/2}X^{\mathsf T}X$ converges in distribution to the symmetric Gaussian model. Hafnian homogeneity scales the amplitude by $k^{-n/2}$; the exact second moment fixes the limiting normalization. The coefficient and normalized disk estimates then pass to the limit. [Supplementary Section S9.1, page S24](https://zenodo.org/records/22856033/files/supplement.pdf#page=24) gives this argument.
 
