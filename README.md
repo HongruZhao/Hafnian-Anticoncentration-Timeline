@@ -38,7 +38,7 @@ b_n=\frac{2\Gamma(n+1/2)}{\sqrt{\pi}\,\Gamma(n)}
 \le2\sqrt{n/\pi}.
 $$
 
-Setting $z=0$ and $\varepsilon=\delta/(2n)$ gives the polynomial **$p(n,1/\delta)=2n/\delta$** and failure probability at most $\delta^2/(2n)<\delta$ for $0<\delta<1$. This resolves the precise independent circular complex Gaussian lower-tail statement later cataloged by QIQCOP. [Corollary 2.4, p. 6](https://zenodo.org/records/22856033/files/main.pdf#page=6).
+Setting $z=0$ and $\varepsilon=\delta/(2n)$ gives the polynomial **$p(n,1/\delta)=2n/\delta$** and failure probability at most $\delta^2/(2n)<\delta$ for $0<\delta<1$. This resolves the precise independent circular complex Gaussian lower-tail statement later cataloged by QIQCOP. [Corollary 2.4, p. 6](https://zenodo.org/records/22856033).
 
 ### Lean completion, submission receipts, and public release
 
