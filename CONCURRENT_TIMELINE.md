@@ -23,7 +23,7 @@ Sources: [published paper](https://doi.org/10.1103/PhysRevLett.119.170501) · [a
 
 Adam Ehrenberg, Joseph T. Iosue, Abhinav Deshpande, Dominik Hangleiter, and Alexey V. Gorshkov submitted **[“Transition of Anticoncentration in Gaussian Boson Sampling”](https://arxiv.org/abs/2312.08433)**, arXiv:2312.08433, at **19:00:00 UTC**.
 
-The paper studies the weak-anticoncentration transition. Supplement §S5.B explains transfer to the exact Haar distribution; Eq. (S62) formulates the quantitative hiding conjecture. This moment-based transfer supplies the context for my later hiding and local-anticoncentration work.
+The paper studies the weak-anticoncentration transition. Supplement §S5.B explains transfer to the exact Haar distribution; Eq. (S62) formulates the quantitative hiding conjecture. My later [hiding paper, Theorem 2.1 and Corollary 2.2](https://arxiv.org/pdf/2609.01008v2#page=3), resolves this quantitative product-hiding conjecture with its quadratic scaling and uniformity over the number of squeezed inputs. Its [Theorem 3.1](https://arxiv.org/pdf/2609.01008v2#page=5) combines hiding with the companion's Gaussian small-ball bound to obtain finite-Haar lower tails.
 
 Source: [arXiv record and submission history](https://arxiv.org/abs/2312.08433).
 
