@@ -53,7 +53,7 @@ The first release is preserved in the [Lean v1.0.0 Zenodo archive](https://zenod
 <table>
 <thead><tr><th>Event</th><th>Date</th></tr></thead>
 <tbody>
-<tr><td>I completed the code</td><td>August 25, 2026</td></tr>
+<tr><td>I completed the Lean code</td><td>August 25, 2026</td></tr>
 <tr><td>I publicly released the archive</td><td>September 1, 2026</td></tr>
 <tr><td>Zenodo created the archive record</td><td>September 1, 2026, at 06:30:38 UTC</td></tr>
 </tbody>
