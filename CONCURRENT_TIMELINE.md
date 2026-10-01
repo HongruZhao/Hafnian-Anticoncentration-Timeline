@@ -7,7 +7,7 @@ This chronology follows the earlier literature, the talk that inspired me, my we
 
 My complex-Gaussian work preceded my real-Gaussian paper. The sequence begins with code completion on August 25 and an initial complex-Gaussian submission on August 26. It continues through an updated submission and public Lean release on September 1, a reorganized submission on September 9, and the public manuscript deposit on September 20.
 
-All times below are UTC. Public papers, version histories, and archive metadata are linked at each entry and collected in the [source index](SOURCES.md). My submission acknowledgments, removal requests, and account-status dates come from my retained arXiv records. The development sequence and the contents of the earlier submitted manuscript are my account of the work.
+Times are UTC unless an entry explicitly quotes a displayed time from my records. Public papers, version histories, and archive metadata are linked at each entry and collected in the [source index](SOURCES.md). My submission acknowledgments, Overleaf history, removal requests, and account-status dates come from my retained records.
 
 ## Chronology
 
@@ -92,17 +92,25 @@ Their [acknowledgments, p. 14](https://arxiv.org/pdf/2609.01241v1#page=14), disc
 
 Sources: [arXiv history](https://arxiv.org/abs/2609.01241) · [v1 PDF, Theorem 2.1, page 2](https://arxiv.org/pdf/2609.01241v1#page=2) · [Note added, page 15](https://arxiv.org/pdf/2609.01241v1#page=15).
 
-### September 1, 2026: Updated complex submission, public Lean release, and hiding v1
+### September 1, 2026: Complex submission, Two Routes, public Lean archives, and hiding v1
 
 An updated acknowledgment under **7994335** records the title **“Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry”** and a **22-page** manuscript. This follows the August 26 initial acknowledgment. The first Lean archive was publicly released on September 1.
 
 [Original September 1 receipt image](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-01-7994335.png).
 
+I separately submitted **[“Two Routes from Additive to Relative Accuracy in Gaussian Boson Sampling”](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/manuscripts/two-routes-author-copy.pdf)** under temporary arXiv number **7994183**. The acknowledgment identifies a **five-page manuscript with one figure** and prints the date **September 1, 2026**, with time **00:39:01 EST** as displayed in the receipt. Its abstract expressly names both the finite transpose-Gram reference and the independent complex symmetric Gaussian reference.
+
+My Overleaf history also shows the *Two Routes* project on **September 1**, with `main.tex`, `references.bib`, and the figure file added by upload. The screenshot displays **“1st September, 6:28 am”** for that history entry.
+
+In the [author-supplied manuscript](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/manuscripts/two-routes-author-copy.pdf), **Eq. (4), p. 1**, uses the finite complex transpose-Gram theorem, while **Eq. (8), p. 2**, explicitly states the independent circular complex symmetric Gaussian small-ball bound with coefficient $b_n$. It cites **Theorem I.3 of reference [8]**, whose proof is identified as the first subsection of Appendix D. Reference [8], on p. 4, names the earlier *Shifted Anticoncentration of Complex Gaussian Gram Hafnians* companion; reference [7] names the hiding manuscript.
+
+The [Two Routes Lean v1.0.0 archive](https://zenodo.org/records/22102501) was created at **05:02:29 UTC on September 1**. Its equation crosswalk explicitly records **row 8, `eq:symmetric-anticoncentration`**, and the bundled independent symmetric Gaussian package records `symmetricHafnian_shifted_smallBall` with only the standard Lean foundations in its axiom audit. This provides a dated public verification record for the independent complex result in addition to my retained submission and Overleaf records.
+
 I also submitted **[“Uniform Hiding of Haar Block Transpose Gram Matrices”](https://arxiv.org/abs/2609.01008v1)**, arXiv:2609.01008v1, at **09:55:29 UTC**, as recorded in its public history.
 
 The actual **v1 PDF, page 22, reference [13]**, cites the complex-Gaussian companion under the *Shifted Anticoncentration* title. This version-specific citation documents the connection in the version submitted on September 1, before the September 20 Zenodo manuscript deposit.
 
-Sources: [hiding submission history](https://arxiv.org/abs/2609.01008) · [v1 PDF, page 22](https://arxiv.org/pdf/2609.01008v1#page=22) · [Lean v1.0.0](https://zenodo.org/records/22102635).
+Sources: [Two Routes manuscript](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/manuscripts/two-routes-author-copy.pdf) · [Two Routes verification archive](https://zenodo.org/records/22102501) · [hiding submission history](https://arxiv.org/abs/2609.01008) · [v1 PDF, page 22](https://arxiv.org/pdf/2609.01008v1#page=22) · [complex Lean v1.0.0](https://zenodo.org/records/22102635).
 
 ### September 4, 2026: Removal request to reorganize the work
 
@@ -146,6 +154,8 @@ Source: [QIQCOP statement and edit log](https://qiqc-op.com/problem/op_55be40726
 
 I submitted arXiv:2609.01008v2 at **07:30:07 UTC**, under **[“Uniform Hiding and Two Routes to Relative Accuracy in Gaussian Boson Sampling”](https://arxiv.org/abs/2609.01008v2)**.
 
+This **v2** combines my **September 1 hiding v1** with the separate **September 1 Two Routes manuscript, submission 7994183**. The independent complex small-ball input in *Two Routes* Eq. (8) appears in the combined paper as Eq. (3.4).
+
 The actual **v2 PDF, page 48, reference [12]**, cites **“Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry”**. **Eq. (3.2)** gives the finite Gram small-ball input; **Eq. (3.4)** gives the independent complex symmetric input. **Theorem 3.1**, “Two finite-interferometer lower tails,” transfers them through hiding, and **Theorem 3.2** combines them with an assumed additive-estimation guarantee for two relative-accuracy routes.
 
 The reference changes from **[13], page 22, in v1**, under the earlier title, to **[12], page 48, in v2**, under the *Local Anticoncentration* title. Both citations concern the same complex-Gaussian project.
@@ -172,13 +182,15 @@ Sources: [manuscript archive](https://zenodo.org/records/22856033) · [main arti
 
 ### September 20, 2026: Zhang's complex manuscript
 
-Yuxuan Zhang's **[“Anticoncentration of Independent Complex Gaussian Hafnians”](https://yuxuanzhang1995.github.io/agentic-research/complex-gaussian-hafnian/)** is dated September 20. Its references include Koehler–Leung and my real and weak Gram papers, but omit my complex companion. Its lower-tail conclusion is also supplied by my Theorem 2.2 and Corollary 2.4.
+Yuxuan Zhang's **[“Anticoncentration of Independent Complex Gaussian Hafnians”](https://yuxuanzhang1995.github.io/agentic-research/complex-gaussian-hafnian/)** is dated September 20. Its references include Koehler–Leung and my real and weak Gram papers, but omit my complex companion, the separate *Two Routes* manuscript, and the combined hiding paper. Its lower-tail conclusion is supplied by my complex companion's [Theorem 2.2 and Corollary 2.4](https://zenodo.org/records/22856033).
+
+My independent complex theorem was already explicit in *Two Routes* **Eq. (8), p. 2**, supported by the [September 1 verification archive](https://zenodo.org/records/22102501), and stated publicly in [hiding v2 **Eq. (3.4), p. 4**](https://arxiv.org/pdf/2609.01008v2#page=4). An implication that my earlier work had not resolved the independent complex case is therefore incorrect. My dated record precedes the Zhang and Pant manuscripts compared here.
 
 The [first site commit](https://github.com/yuxuanzhang1995/yuxuanzhang1995.github.io/commit/9ba4cd37740c3ec9e88895a0e994dd3087b0d5ac) is timestamped **September 21, 00:50:33 UTC**, corresponding to September 20 in Chicago. This distinguishes the page's preparation date from the UTC commit date.
 
 ### September 28, 2026: Pant's concurrent complex paper
 
-Priyanshu Pant submitted **[“Anticoncentration of Complex Gaussian Hafnians”](https://arxiv.org/abs/2609.35019)** at **12:18:39 UTC**. The [introduction, p. 3](https://arxiv.org/pdf/2609.35019v1#page=3), acknowledges concurrent Zhao work covering the complex symmetric Gaussian ensemble. **Reference [9]** points to my hiding paper; its **Eq. (3.4)** cites the complex companion. Pant's paper also develops product-Gamma and negative-moment results.
+Priyanshu Pant submitted **[“Anticoncentration of Complex Gaussian Hafnians”](https://arxiv.org/abs/2609.35019)** at **12:18:39 UTC**. The [introduction, p. 3](https://arxiv.org/pdf/2609.35019v1#page=3), acknowledges concurrent Zhao work covering the complex symmetric Gaussian ensemble. **Reference [9]** points to my **[September 11 hiding v2](https://arxiv.org/abs/2609.01008v2)**, which combines the two September 1 manuscripts. Its [**Eq. (3.4), p. 4**](https://arxiv.org/pdf/2609.01008v2#page=4), cites the complex companion and carries forward the independent complex bound in *Two Routes* **Eq. (8)**. My companion's [**Theorem 2.2 and Corollary 2.4**](https://zenodo.org/records/22856033) give the shifted small-ball bound and its polynomial specialization. Pant's paper also develops product-Gamma and negative-moment results.
 
 ### September 30, 2026: Public correction comment and current arXiv status
 
@@ -194,7 +206,7 @@ Sources: [public correction comment](https://github.com/Naixu-Guo/quantum-open-p
 
 ## How the companion results fit together
 
-The hiding paper compares finite interferometer matrix laws with Gaussian reference laws. The complex-Gaussian companion controls how often their hafnians fall in a small disk around any prescribed center.
+The hiding paper compares finite interferometer matrix laws with Gaussian reference laws. The complex-Gaussian companion controls how often their hafnians fall in a small disk around any prescribed center. The separate September 1 *Two Routes* manuscript composed these inputs; I incorporated that manuscript into the September 11 hiding v2.
 
 The two routes use different Gaussian references:
 
@@ -217,6 +229,6 @@ The complex-Gaussian manuscript follows two arXiv submission stages:
 
 **August 26 initial submission 7994335 → September 1 update → September 4 removal request → September 8 removal confirmed → September 9 new submission 8055779 → September 17 hold confirmed → September 20 public Zenodo release → September 30 still on hold.**
 
-The public record also connects the project through the September 1 Lean archive and hiding-v1 citation, the September 6 Lean update, and the September 11 hiding-v2 citation. These dates place the September 20 deposit within the development and release sequence of the complex-Gaussian work.
+The public record also connects the project through the September 1 complex and Two Routes Lean archives and hiding-v1 citation, the September 6 Lean update, and the September 11 combined hiding-v2 statement and citation. The separate Two Routes submission **7994183** and its September 1 Overleaf history document another part of that development sequence. My dated independent complex result precedes the September 10 catalog entry and the later Zhang and Pant manuscripts.
 
 [^dates]: The [Lean v1.0.0 archive](https://zenodo.org/records/22102635) lists August 25, 2026, as its publication date. I completed the code that day and released it publicly on September 1. Zenodo created the record on September 1, 2026, at 06:30:38 UTC. arXiv history timestamps record submissions, which can precede public announcements.
