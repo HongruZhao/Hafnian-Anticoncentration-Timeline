@@ -164,7 +164,7 @@ Sources: [arXiv history](https://arxiv.org/abs/2609.01008) · [v2 PDF, Section 3
 
 ### September 17, 2026: New submission confirmed on hold
 
-arXiv support confirmed that **8055779** was on hold with the moderators and that no action was needed from me at that time. This status concerns the new September 9 submission.
+In a reply dated **September 17 at 14:13:28 UTC**, arXiv Technical Support confirmed that **8055779** was on hold pending a decision by the volunteer moderators and that no action was required from me at that time. This status concerns the new September 9 submission. September 17 is the support-confirmation date; September 20 is the subsequent Zenodo release date.
 
 ### September 20, 2026: Public manuscript release
 

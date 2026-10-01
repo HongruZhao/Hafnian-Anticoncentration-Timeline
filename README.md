@@ -70,7 +70,8 @@ My complex manuscript went through two arXiv submission stages:
 | September 4 / 8 | I requested removal of 7994335 to reorganize the work while the original submission was on hold; arXiv confirmed removal September 8. |
 | September 6 | Complex Lean **v1.1.0** released, with verification records for the finite Gram and independent complex symmetric bounds. |
 | September 9 | New receipt for **8055779**, *Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry*, 39 pages. Its abstract explicitly states the independent complex symmetric Gaussian limit. |
-| September 17 / 20 | arXiv confirmed 8055779 was on hold; I released the manuscript on [Zenodo](https://zenodo.org/records/22856033) September 20 because of the prolonged delay. |
+| September 17 | arXiv Technical Support confirmed in its reply that **8055779** was on hold pending a moderator decision. |
+| September 20 | While **8055779** remained on hold, I released the manuscript on [Zenodo](https://zenodo.org/records/22856033) because of the prolonged delay. |
 | September 30 | My dashboard still showed **8055779** on hold. |
 
 The original receipt images are linked here: [September 1 — 7994335](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-01-7994335.png) · [September 9 — 8055779](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-09-8055779.png). The [detailed chronology](CONCURRENT_TIMELINE.md) retains the UTC timestamps and the separate submission identifiers.
