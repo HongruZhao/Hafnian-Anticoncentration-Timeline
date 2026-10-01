@@ -1,13 +1,11 @@
-# Concurrent Timeline
+# Research and Submission Timeline for Hafnian Anticoncentration
 
 **Hongru Zhao**  
 **Last updated: September 30, 2026**
 
-This note records the development, submission, and public release of my related work on hafnian anticoncentration and Gaussian boson sampling. It connects the complex-Gaussian manuscript, its Lean verification releases, the companion hiding paper, and the later real-Gaussian paper with the earlier moment literature.
+This chronology follows the earlier literature, the talk that inspired me, my weak-anticoncentration solution, the complex and real small-ball results, and their submissions and releases. The [README](README.md) gives the research narrative; the [source index](SOURCES.md) supplies version-specific locators.
 
 My complex-Gaussian work preceded my real-Gaussian paper. The sequence begins with code completion on August 25 and an initial complex-Gaussian submission on August 26. It continues through an updated submission and public Lean release on September 1, a reorganized submission on September 9, and the public manuscript deposit on September 20.
-
-The September 20 manuscript's **Theorem 2.2 and Corollary 2.4 resolve the exact independent circular complex symmetric Gaussian hafnian lower-tail statement** in [QIQCOP problem op_55be40726cdf7304](https://qiqc-op.com/problem/op_55be40726cdf7304/), with the polynomial $p(n,1/\delta)=2n/\delta$. The proof first treats finite Gaussian transpose-Gram hafnians under stated dimension hypotheses, then fixes $n$ and takes $k\to\infty$ after normalizing the matrix by $k^{-1/2}$. [The result in context](README.md#the-result-and-the-exact-problem) gives the ensemble, normalization, and lower-tail inequality.
 
 All times below are UTC. Public papers, version histories, and archive metadata are linked at each entry and collected in the [source index](SOURCES.md). My submission acknowledgments, removal requests, and account-status dates come from my retained arXiv records. The development sequence and the contents of the earlier submitted manuscript are my account of the work.
 
@@ -15,27 +13,31 @@ All times below are UTC. Public papers, version histories, and archive metadata 
 
 ### 2017: Hamilton et al. discuss hafnian anticoncentration
 
-Craig S. Hamilton, Regina Kruse, Linda Sansoni, Sonja Barkhofen, Christine Silberhorn, and Igor Jex published **“Gaussian Boson Sampling”**, *Physical Review Letters* **119**, 170501 (2017). The “Approximate GBS” discussion after Eq. (11) addresses hafnian anticoncentration in relating additive and multiplicative approximation.
+Hamilton et al. published **[“Gaussian Boson Sampling”](https://doi.org/10.1103/PhysRevLett.119.170501)** in 2017. Its discussion after Eq. (11) addresses hafnian anticoncentration and additive-to-multiplicative approximation.
 
-This is the historical setting for the question. The precise independent-entry ensemble and quantified lower-tail statement in the QIQCOP entry are a later catalog formulation. The entry's September 10, 2026 creation date is distinct from the historical question. The Hamilton et al. preprint first appeared on December 4, 2016; 2017 is its journal publication year.
+The historical question predates the September 2026 catalog entry. The preprint first appeared December 4, 2016; 2017 is the journal year.
 
 Sources: [published paper](https://doi.org/10.1103/PhysRevLett.119.170501) · [arXiv history](https://arxiv.org/abs/1612.01199) · [PDF, page 3](https://arxiv.org/pdf/1612.01199v2#page=3).
 
 ### December 13, 2023: Anticoncentration transition
 
-Adam Ehrenberg, Joseph T. Iosue, Abhinav Deshpande, Dominik Hangleiter, and Alexey V. Gorshkov submitted **“Transition of Anticoncentration in Gaussian Boson Sampling”**, arXiv:2312.08433, at **19:00:00 UTC**.
+Adam Ehrenberg, Joseph T. Iosue, Abhinav Deshpande, Dominik Hangleiter, and Alexey V. Gorshkov submitted **[“Transition of Anticoncentration in Gaussian Boson Sampling”](https://arxiv.org/abs/2312.08433)**, arXiv:2312.08433, at **19:00:00 UTC**.
 
-The paper develops a graph-theoretic framework for moments of the GBS distribution and studies the transition between regimes with and without weak anticoncentration as the number of squeezed inputs changes relative to the photon count.
+The paper studies the weak-anticoncentration transition. Supplement §S5.B explains transfer to the exact Haar distribution; Eq. (S62) formulates the quantitative hiding conjecture. This moment-based transfer supplies the context for my later hiding and local-anticoncentration work.
 
 Source: [arXiv record and submission history](https://arxiv.org/abs/2312.08433).
 
 ### March 20, 2024: Companion second-moment work
 
-The same five authors submitted **“The Second Moment of Hafnians in Gaussian Boson Sampling”**, arXiv:2403.13878, at **18:00:00 UTC**.
+The same five authors submitted **[“The Second Moment of Hafnians in Gaussian Boson Sampling”](https://arxiv.org/abs/2403.13878)**, arXiv:2403.13878, at **18:00:00 UTC**.
 
 The paper develops a recursive moment expression, evaluates it numerically exactly up to photon sector $2n=80$, and derives further analytical moment results and consequences for ideal linear cross-entropy benchmarking.
 
 Source: [arXiv record and submission history](https://arxiv.org/abs/2403.13878).
+
+### September 16, 2024: The IMSI talk that inspired me
+
+Alexey Gorshkov delivered **[“Anticoncentration and Entanglement in Gaussian Boson Sampling”](https://www.imsi.institute/videos/anticoncentration-and-entanglement-in-gaussian-boson-sampling/)** at IMSI. Watching this talk inspired my work on Gaussian Gram hafnian moments and weak anticoncentration. The date here is the talk's date.
 
 ### April 8, 2025: Journal publication of both moment papers
 
@@ -46,11 +48,19 @@ Both companion papers were published on **April 8, 2025**:
 
 Their moment-based weak-anticoncentration conclusions provide background for the later local small-ball problem. These journal dates follow the 2023 and 2024 initial arXiv submissions.
 
+### July 22, 2026: Koehler–Leung's permanent breakthrough
+
+Frederic Koehler and Pui Kuen Leung submitted **[“Anticoncentration of the Permanent in Ginibre Ensembles”](https://arxiv.org/abs/2607.20329)** at **16:15:28 UTC**. I regard their Fourier compression and Gaussian comparison framework as a decisive methodological breakthrough for my hafnian work.
+
 ### August 17, 2026: My earlier weak-anticoncentration paper
 
-I submitted **“Exact Moments of Gaussian Gram Hafnians Reveal an n²/log n Threshold for Weak Anticoncentration”**, arXiv:2608.17065. The public history records v1 at **19:12:22 UTC**.
+I submitted **[“Exact Moments of Gaussian Gram Hafnians Reveal an n²/log n Threshold for Weak Anticoncentration”](https://arxiv.org/abs/2608.17065)**, arXiv:2608.17065. The public history records v1 at **19:12:22 UTC**.
 
 This paper evaluates the second and fourth absolute moments of complex Gaussian Gram hafnians and identifies the scaling threshold for an inverse-polynomial weak-anticoncentration moment criterion. It is an earlier part of the research program; the subsequent complex-Gaussian manuscript develops local small-ball estimates.
+
+I used ChatGPT with **GPT 5.6 Sol** in this work. In subsequent correspondence with Alexey Gorshkov, I learned of his group's independent solution, and we agreed on independent-work acknowledgments. I have included a reciprocal acknowledgment in the version submitted to a journal.
+
+While developing the weak result, I also worked on complex Gram small-ball bounds with **GPT 5.6 Sol in Ultra mode**. Adapting Koehler–Leung required an additional conditional Wishart argument to control dependent hafnian cofactors while preserving the transpose-Gram matrix.
 
 Source: [arXiv record and submission history](https://arxiv.org/abs/2608.17065).
 
@@ -72,11 +82,13 @@ The acknowledgment describes an **18-page** manuscript and identifies the accomp
 
 ### August 27, 2026: Related closed-form moment and weak-threshold result
 
-Laura Shou, Adam Ehrenberg, Yu-Xin Wang, Joseph T. Iosue, and Alexey V. Gorshkov submitted **“Anticoncentration and entanglement in Gaussian boson sampling”**, arXiv:2609.01241. Its public v1 history records **17:55:00 UTC on August 27**, despite the September-formatted identifier.
+Laura Shou, Adam Ehrenberg, Yu-Xin Wang, Joseph T. Iosue, and Alexey V. Gorshkov submitted **[“Anticoncentration and entanglement in Gaussian boson sampling”](https://arxiv.org/abs/2609.01241)**, arXiv:2609.01241. Its public v1 history records **17:55:00 UTC on August 27**, despite the September-formatted identifier.
 
 Theorem 2.1 gives a closed form for $M_2(k,n)=\mathbb E|\mathrm{haf}(X^{\mathsf T}X)|^4$ and identifies the sharp scaling threshold $k$ of order $n^2/\log n$ for weak anticoncentration. Here “second moment” is the second moment of the squared hafnian magnitude, hence the fourth absolute moment of the amplitude.
 
-The **Note added** acknowledges my independent work, arXiv:2608.17065, for the closed-form moment and the same weak-anticoncentration transition. This acknowledgment concerns the August 17 moment paper. The local, high-probability small-ball estimates in my complex-Gaussian companion address the lower-tail question.
+The **Note added** acknowledges my independent closed-form moment and weak-threshold work, arXiv:2608.17065. My subsequent complex companion develops the local small-ball bounds.
+
+Their [acknowledgments, p. 14](https://arxiv.org/pdf/2609.01241v1#page=14), disclose assistance from **GPT 5.5 Thinking and Pro**.
 
 Sources: [arXiv history](https://arxiv.org/abs/2609.01241) · [v1 PDF, Theorem 2.1, page 2](https://arxiv.org/pdf/2609.01241v1#page=2) · [Note added, page 15](https://arxiv.org/pdf/2609.01241v1#page=15).
 
@@ -84,7 +96,9 @@ Sources: [arXiv history](https://arxiv.org/abs/2609.01241) · [v1 PDF, Theorem 2
 
 An updated acknowledgment under **7994335** records the title **“Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry”** and a **22-page** manuscript. This follows the August 26 initial acknowledgment. The first Lean archive was publicly released on September 1.
 
-I also submitted **“Uniform Hiding of Haar Block Transpose Gram Matrices”**, arXiv:2609.01008v1, at **09:55:29 UTC**, as recorded in its public history.
+[Original September 1 receipt image](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-01-7994335.png).
+
+I also submitted **[“Uniform Hiding of Haar Block Transpose Gram Matrices”](https://arxiv.org/abs/2609.01008v1)**, arXiv:2609.01008v1, at **09:55:29 UTC**, as recorded in its public history.
 
 The actual **v1 PDF, page 22, reference [13]**, cites the complex-Gaussian companion under the *Shifted Anticoncentration* title. This version-specific citation documents the connection in the version submitted on September 1, before the September 20 Zenodo manuscript deposit.
 
@@ -98,11 +112,13 @@ The original complex submission was on hold. I requested removal to prepare the 
 
 ### September 6, 2026: Real-Gaussian paper and complex Lean v1.1.0
 
-I subsequently developed the real-Gaussian results and submitted **“Shifted Anticoncentration for Real Gram Hafnians and Symmetric Gaussian Hafnians”**, arXiv:2609.06526. Its public v1 history records **10:47:33 UTC on September 6**, after the initial complex-Gaussian submission.
+I subsequently developed the real-Gaussian results and submitted **[“Shifted Anticoncentration for Real Gram Hafnians and Symmetric Gaussian Hafnians”](https://arxiv.org/abs/2609.06526)**, arXiv:2609.06526. Its public v1 history records **10:47:33 UTC on September 6**, after the initial complex-Gaussian submission. The real verification materials are in **[RealGramHafnians](https://github.com/HongruZhao/RealGramHafnians)** and **[Zenodo v1.1.0](https://zenodo.org/records/22498111)**. I also began communicating the real result to researchers in probability.
 
 The complex verification archive was also updated to **version 1.1.0**, DOI **10.5281/zenodo.22554594**, under **“Lean Verification for ‘Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry’”**. Its record was created at **23:29:30 UTC**.
 
 Zenodo identifies v1.1.0 as the successor to v1.0.0 under the earlier *Shifted Anticoncentration* title. The [ComplexGramHafnians repository](https://github.com/HongruZhao/ComplexGramHafnians) is the development location, and the Zenodo archives preserve versioned verification materials for the same complex-Gaussian project.
+
+The [September 6 verification record](https://github.com/HongruZhao/ComplexGramHafnians/blob/95ab10dc594ac92207054413220ae9fd2adab08c/verification/STATUS.md) records a successful build for `theorem2_1` and `theorem2_3`, with exactly `propext`, `Classical.choice`, and `Quot.sound` in their dependency lists. These declarations cover the finite complex Gram and independent complex symmetric bounds. Revised `theorem2_3` corresponds to deposited Theorem 2.2.
 
 Sources: [real-Gaussian arXiv history](https://arxiv.org/abs/2609.06526) · [complex Lean v1.1.0](https://zenodo.org/records/22554594) · [record metadata](https://zenodo.org/api/records/22554594).
 
@@ -116,19 +132,21 @@ At **07:19:23 UTC**, arXiv acknowledged the new submission **8055779**, titled *
 
 The acknowledgment describes a **39-page** manuscript whose abstract explicitly includes the independent complex symmetric Gaussian limit. Submission 7994335 and submission 8055779 are separate administrative stages: the former was removed, and the latter is the reorganized submission.
 
+[Original September 9 receipt image](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-09-8055779.png).
+
 ### September 10, 2026: QIQCOP entry created
 
 The [QIQCOP entry](https://qiqc-op.com/problem/op_55be40726cdf7304/) was created on **September 10**, nine days after my updated September 1 submission and one day after the new September 9 acknowledgment.
 
-The result resolving its anticoncentration statement was already in my September 1 submitted manuscript. The entry subsequently listed the problem as unsolved. As of September 30, the page's latest visible revision is dated **September 25**.
+The result resolving its anticoncentration statement was already in my September 1 submitted manuscript. The entry's creation followed that resolution, while the complex manuscript was still delayed by arXiv. Its discussion cites my later real paper, which has a different Gaussian ensemble, and omits the complex companion. As of September 30 it still displays “Unsolved,” and its latest visible revision is dated **September 25**.
 
 Source: [QIQCOP statement and edit log](https://qiqc-op.com/problem/op_55be40726cdf7304/).
 
 ### September 11, 2026: Hiding v2 and two relative-accuracy routes
 
-I submitted arXiv:2609.01008v2 at **07:30:07 UTC**, under **“Uniform Hiding and Two Routes to Relative Accuracy in Gaussian Boson Sampling”**.
+I submitted arXiv:2609.01008v2 at **07:30:07 UTC**, under **[“Uniform Hiding and Two Routes to Relative Accuracy in Gaussian Boson Sampling”](https://arxiv.org/abs/2609.01008v2)**.
 
-The actual **v2 PDF, page 48, reference [12]**, cites **“Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry”**. Section 3 combines the companion's finite-Gram and independent-symmetric small-ball bounds with hiding and an assumed additive-estimation guarantee to obtain two routes to relative-probability accuracy.
+The actual **v2 PDF, page 48, reference [12]**, cites **“Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry”**. **Eq. (3.2)** gives the finite Gram small-ball input; **Eq. (3.4)** gives the independent complex symmetric input. **Theorem 3.1**, “Two finite-interferometer lower tails,” transfers them through hiding, and **Theorem 3.2** combines them with an assumed additive-estimation guarantee for two relative-accuracy routes.
 
 The reference changes from **[13], page 22, in v1**, under the earlier title, to **[12], page 48, in v2**, under the *Local Anticoncentration* title. Both citations concern the same complex-Gaussian project.
 
@@ -151,6 +169,16 @@ Zenodo lists **September 20** as the publication date and records creation at **
 The manuscript's v1.0.0 and the Lean archive's v1.0.0 are version labels for separate artifacts with separate release dates.
 
 Sources: [manuscript archive](https://zenodo.org/records/22856033) · [main article, pages 4–6](https://zenodo.org/records/22856033/files/main.pdf#page=4) · [supplement, page S24](https://zenodo.org/records/22856033/files/supplement.pdf#page=24) · [record metadata](https://zenodo.org/api/records/22856033).
+
+### September 20, 2026: Zhang's complex manuscript
+
+Yuxuan Zhang's **[“Anticoncentration of Independent Complex Gaussian Hafnians”](https://yuxuanzhang1995.github.io/agentic-research/complex-gaussian-hafnian/)** is dated September 20. Its references include Koehler–Leung and my real and weak Gram papers, but omit my complex companion. Its lower-tail conclusion is also supplied by my Theorem 2.2 and Corollary 2.4.
+
+The [first site commit](https://github.com/yuxuanzhang1995/yuxuanzhang1995.github.io/commit/9ba4cd37740c3ec9e88895a0e994dd3087b0d5ac) is timestamped **September 21, 00:50:33 UTC**, corresponding to September 20 in Chicago. This distinguishes the page's preparation date from the UTC commit date.
+
+### September 28, 2026: Pant's concurrent complex paper
+
+Priyanshu Pant submitted **[“Anticoncentration of Complex Gaussian Hafnians”](https://arxiv.org/abs/2609.35019)** at **12:18:39 UTC**. The [introduction, p. 3](https://arxiv.org/pdf/2609.35019v1#page=3), acknowledges concurrent Zhao work covering the complex symmetric Gaussian ensemble. **Reference [9]** points to my hiding paper; its **Eq. (3.4)** cites the complex companion. Pant's paper also develops product-Gamma and negative-moment results.
 
 ### September 30, 2026: Public correction comment and current arXiv status
 
@@ -176,6 +204,12 @@ The two routes use different Gaussian references:
 In [Section 3 of hiding v2](https://arxiv.org/pdf/2609.01008v2#page=4), **Theorem 3.1** transfers these small-ball bounds to finite-interferometer lower tails. **Theorem 3.2** uses those tails with an assumed additive-estimation guarantee to obtain relative-accuracy bounds. The comparison uses the same estimator and absolute additive threshold and accounts for the different reference probability scales.
 
 Local anticoncentration is a key mathematical input to these applications. The hiding and Gaussian small-ball proofs are developed separately. Their composition provides lower-tail and relative-accuracy guarantees in the stated regimes; additive estimation and average-case computational hardness remain separate inputs to a full GBS sampling-hardness argument.
+
+The earlier moment papers and hiding estimates together transfer weak anticoncentration. A shrinking small-ball conclusion additionally uses the local Gaussian bounds. This distinguishes the earlier weak-threshold question from the polynomial lower-tail statement resolved by my complex companion.
+
+## Names and attribution
+
+Quesada, Arrazola, and Killoran explicitly use **“Hafnian-anti-concentration conjecture”** in [*Gaussian Boson Sampling Using Threshold Detectors*, §IV](https://arxiv.org/pdf/1807.01639#page=3). The name therefore predates the September 2026 catalog entry. Precise ensemble descriptions in later titles are also natural mathematical terminology. Zhang's page names the catalog as its target; title similarity alone does not establish another author's motivation or awareness. The chronology records submissions, releases, and citations as the basis for attribution.
 
 ## The submission and release sequence
 
