@@ -30,19 +30,34 @@ The proof first treats $\mathrm{haf}(X^{\mathsf T}X)$ for an independent circula
 
 For a zero-diagonal symmetric matrix $S$ with independent standard circular complex Gaussian entries above the diagonal, put $h_n=(2n-1)!!$. For every $n\ge1$, $z\in\mathbb C$, and $\varepsilon\ge0$:
 
-$$
+```math
 \Pr\left[|\mathrm{haf}(S)-z|\le\varepsilon\sqrt{h_n}\right]
-\le\min\{1,b_n\varepsilon^2\},
-\qquad
-b_n=\frac{2\Gamma(n+1/2)}{\sqrt{\pi}\,\Gamma(n)}
-\le2\sqrt{n/\pi}.
-$$
+\le\min\left\lbrace 1,b_n\varepsilon^2\right\rbrace.
+```
+
+Here
+
+```math
+b_n=\frac{2\Gamma(n+1/2)}{\sqrt{\pi}\Gamma(n)}
+\le2\sqrt{\frac{n}{\pi}}.
+```
 
 Setting $z=0$ and $\varepsilon=\delta/(2n)$ gives the polynomial **$p(n,1/\delta)=2n/\delta$** and failure probability at most $\delta^2/(2n)<\delta$ for $0<\delta<1$. This resolves the precise independent circular complex Gaussian lower-tail statement later cataloged by QIQCOP. [Corollary 2.4, p. 6](https://zenodo.org/records/22856033).
 
 ### Lean completion, submission receipts, and public release
 
-I completed **Lean v1.0.0 on August 25** and made it publicly available on **September 1**. [Zenodo v1.0.0](https://zenodo.org/records/22102635) lists August 25 in its publication field; its [record-created timestamp](https://zenodo.org/api/records/22102635) is September 1, 06:30:38 UTC.
+The first release is preserved in the [Lean v1.0.0 Zenodo archive](https://zenodo.org/records/22102635).
+
+<table>
+<thead><tr><th>Event</th><th>Date</th></tr></thead>
+<tbody>
+<tr><td>I completed the code</td><td>August 25, 2026</td></tr>
+<tr><td>I publicly released the archive</td><td>September 1, 2026</td></tr>
+<tr><td>Zenodo created the archive record</td><td>September 1, 2026, at 06:30:38 UTC</td></tr>
+</tbody>
+</table>
+
+Zenodo lists August 25 as the publication date, matching the code-completion date.
 
 My complex manuscript went through two arXiv submission stages:
 
@@ -50,7 +65,7 @@ My complex manuscript went through two arXiv submission stages:
 | --- | --- |
 | August 26 | Initial receipt for **7994335**: *Shifted Anticoncentration of Complex Gaussian Transpose-Gram Hafnians via Conditional Wishart Geometry*, 18 pages. |
 | September 1 | Updated receipt for **7994335**: *Shifted Anticoncentration of Complex Gaussian Gram Hafnians via Conditional Wishart Geometry*, 22 pages; public Lean v1.0.0 release. |
-| September 4 / 8 | I requested removal of 7994335 and the related 7994183 to merge and reorganize the work while the original submission was on hold; arXiv confirmed removal September 8. |
+| September 4 / 8 | I requested removal of 7994335 to reorganize the work while the original submission was on hold; arXiv confirmed removal September 8. |
 | September 6 | Complex Lean **v1.1.0** released, with verification records for the finite Gram and independent complex symmetric bounds. |
 | September 9 | New receipt for **8055779**, *Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry*, 39 pages. Its abstract explicitly states the independent complex symmetric Gaussian limit. |
 | September 17 / 20 | arXiv confirmed 8055779 was on hold; I released the manuscript on [Zenodo](https://zenodo.org/records/22856033) September 20 because of the prolonged delay. |

@@ -72,7 +72,7 @@ The archive is **“Lean Verification for ‘Shifted Anticoncentration of Comple
 
 Zenodo lists **August 25** as its publication date. The archival record was created on **September 1 at 06:30:38 UTC**. These dates record different events in the release sequence.[^dates]
 
-Sources: [Lean v1.0.0](https://zenodo.org/records/22102635) · [record metadata](https://zenodo.org/api/records/22102635).
+Sources: [Lean v1.0.0](https://zenodo.org/records/22102635) · [record metadata](https://zenodo.org/records/22102635).
 
 ### August 26, 2026: Initial complex-Gaussian submission
 
@@ -106,7 +106,7 @@ Sources: [hiding submission history](https://arxiv.org/abs/2609.01008) · [v1 PD
 
 ### September 4, 2026: Removal request to reorganize the work
 
-At **22:59:04 UTC**, I asked arXiv to remove submissions **7994335** and **7994183** so that I could merge, reorganize, and resubmit the work. Submission 7994183 was titled **“Two Routes from Additive to Relative Accuracy in Gaussian Boson Sampling”**.
+At **22:59:04 UTC**, I asked arXiv to remove submission **7994335** so that I could reorganize and resubmit the work.
 
 The original complex submission was on hold. I requested removal to prepare the reorganized manuscripts, received confirmation on September 8, and submitted the revised complex manuscript on September 9 under a new identifier.
 
@@ -120,11 +120,11 @@ Zenodo identifies v1.1.0 as the successor to v1.0.0 under the earlier *Shifted A
 
 The [September 6 verification record](https://github.com/HongruZhao/ComplexGramHafnians/blob/95ab10dc594ac92207054413220ae9fd2adab08c/verification/STATUS.md) records a successful build for `theorem2_1` and `theorem2_3`, with exactly `propext`, `Classical.choice`, and `Quot.sound` in their dependency lists. These declarations cover the finite complex Gram and independent complex symmetric bounds. Revised `theorem2_3` corresponds to deposited Theorem 2.2.
 
-Sources: [real-Gaussian arXiv history](https://arxiv.org/abs/2609.06526) · [complex Lean v1.1.0](https://zenodo.org/records/22554594) · [record metadata](https://zenodo.org/api/records/22554594).
+Sources: [real-Gaussian arXiv history](https://arxiv.org/abs/2609.06526) · [complex Lean v1.1.0](https://zenodo.org/records/22554594) · [record metadata](https://zenodo.org/records/22554594).
 
 ### September 8, 2026: Removal confirmed
 
-At **12:17:38 UTC**, arXiv confirmed removal of **7994335** and **7994183** in response to my September 4 request.
+At **12:17:38 UTC**, arXiv confirmed removal of **7994335** in response to my September 4 request.
 
 ### September 9, 2026: New complex-Gaussian submission
 
@@ -168,7 +168,7 @@ Zenodo lists **September 20** as the publication date and records creation at **
 
 The manuscript's v1.0.0 and the Lean archive's v1.0.0 are version labels for separate artifacts with separate release dates.
 
-Sources: [manuscript archive](https://zenodo.org/records/22856033) · [main article, pages 4–6](https://zenodo.org/records/22856033/files/main.pdf#page=4) · [supplement, page S24](https://zenodo.org/records/22856033/files/supplement.pdf#page=24) · [record metadata](https://zenodo.org/api/records/22856033).
+Sources: [manuscript archive](https://zenodo.org/records/22856033) · [main article, pages 4–6](https://zenodo.org/records/22856033/files/main.pdf#page=4) · [supplement, page S24](https://zenodo.org/records/22856033/files/supplement.pdf#page=24) · [record metadata](https://zenodo.org/records/22856033).
 
 ### September 20, 2026: Zhang's complex manuscript
 
@@ -219,4 +219,4 @@ The complex-Gaussian manuscript follows two arXiv submission stages:
 
 The public record also connects the project through the September 1 Lean archive and hiding-v1 citation, the September 6 Lean update, and the September 11 hiding-v2 citation. These dates place the September 20 deposit within the development and release sequence of the complex-Gaussian work.
 
-[^dates]: Zenodo's publication-date field and record-created timestamp describe different events. For Lean v1.0.0, the [metadata](https://zenodo.org/api/records/22102635) gives `publication_date: 2026-08-25` and `created: 2026-09-01T06:30:38.827108+00:00`; my code-completion and public-release dates explain that distinction. arXiv history timestamps record submissions, which can precede public announcements.
+[^dates]: The [Lean v1.0.0 archive](https://zenodo.org/records/22102635) lists August 25, 2026, as its publication date. I completed the code that day and released it publicly on September 1. Zenodo created the record on September 1, 2026, at 06:30:38 UTC. arXiv history timestamps record submissions, which can precede public announcements.
