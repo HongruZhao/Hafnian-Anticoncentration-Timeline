@@ -2,8 +2,7 @@
 
 **Update — October 1, 2026 (US Eastern): [arXiv:2610.00112](https://arxiv.org/abs/2610.00112) is now publicly available; submitted September 9, 2026.**
 
-**Hongru Zhao**  
-**Last updated: October 2, 2026 (UTC)**
+**Hongru Zhao · Updated October 1, 2026 (UTC)**
 
 This chronology follows the earlier literature, the talk that inspired me, my weak-anticoncentration solution, the complex and real small-ball results, and their submissions and releases. The [README](README.md) gives the research narrative; the [source index](SOURCES.md) supplies version-specific locators.
 

@@ -1,6 +1,6 @@
 # Source Index
 
-**Hongru Zhao · Updated October 2, 2026 (UTC)**
+**Hongru Zhao · Updated October 1, 2026 (UTC)**
 
 Primary sources for the [research narrative](README.md) and [dated chronology](CONCURRENT_TIMELINE.md). PDF locators refer to the specified versions.
 

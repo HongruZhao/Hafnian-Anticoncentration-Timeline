@@ -2,7 +2,7 @@
 
 **Update — October 1, 2026 (US Eastern): [arXiv:2610.00112](https://arxiv.org/abs/2610.00112) is now publicly available; submitted September 9, 2026.**
 
-**Hongru Zhao · Updated October 2, 2026 (UTC)**
+**Hongru Zhao · Updated October 1, 2026 (UTC)**
 
 My paper, *Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry*, is now publicly accessible on arXiv. Its [v1 submission history](https://arxiv.org/abs/2610.00112) records **September 9, 2026, 07:19:22 UTC**. That timestamp records the original submission, not public availability on September 9. The earlier receipts and the September 20 Zenodo release remain separate events in the chronology below.
 
