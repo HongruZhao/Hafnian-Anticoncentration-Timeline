@@ -1,6 +1,6 @@
 # Source Index
 
-**Hongru Zhao · September 30, 2026**
+**Hongru Zhao · Updated October 2, 2026 (UTC)**
 
 Primary sources for the [research narrative](README.md) and [dated chronology](CONCURRENT_TIMELINE.md). PDF locators refer to the specified versions.
 
@@ -8,12 +8,23 @@ Primary sources for the [research narrative](README.md) and [dated chronology](C
 
 | Source | Date / version | Locator and purpose |
 | --- | --- | --- |
+| Zhao, [Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry — arXiv:2610.00112](https://arxiv.org/abs/2610.00112) | v1 submitted **September 9, 2026, 07:19:22 UTC**; publicly available **October 1, 2026 (US Eastern)** | Public title, sole author Hongru Zhao, 39 pages, math.PR / quant-ph, and original v1 submission history. Public access was checked October 2 UTC, still October 1 in US Eastern. The exact announcement timestamp is not separately displayed on the abstract page. |
+| [arXiv availability and announcement schedule](https://info.arxiv.org/help/availability.html) | Current guidance checked October 2, 2026 (UTC) | Announcement times use US Eastern: October 1 at 20:00 EDT corresponds to October 2 at 00:00 UTC. Identifiers are assigned in the month of first announcement; submission dates can precede announcement dates. |
 | [Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry](https://zenodo.org/records/22856033) | September 20, 2026; manuscript v1.0.0 | [Main article](https://zenodo.org/records/22856033/files/main.pdf): Theorem 2.1, p. 4; Theorem 2.2, p. 5; Corollary 2.4, p. 6. |
 | [Supplementary proofs](https://zenodo.org/records/22856033/files/supplement.pdf#page=24) | Same deposit | Section S9.1, p. S24: fixed-$n$ symmetric Gaussian limit, normalization, and disk-probability transfer. |
 | [Manuscript metadata](https://zenodo.org/records/22856033) | Publication September 20; record created 09:41:35 UTC | Separate manuscript release from the Lean release dates. |
 | [Lean verification v1.0.0](https://zenodo.org/records/22102635) | Publication field August 25; public release September 1 | Earlier *Shifted Anticoncentration* title; [metadata](https://zenodo.org/records/22102635) records creation September 1 at 06:30:38 UTC. |
 | [Lean verification v1.1.0](https://zenodo.org/records/22554594) | September 6, 2026 | Successor under the *Local Anticoncentration* title; [metadata](https://zenodo.org/records/22554594) records creation at 23:29:30 UTC. |
 | [ComplexGramHafnians](https://github.com/HongruZhao/ComplexGramHafnians) | Development repository; archive snapshot `95ab10d` | [Specification](https://github.com/HongruZhao/ComplexGramHafnians/blob/95ab10dc594ac92207054413220ae9fd2adab08c/Challenge.lean), [comparison](https://github.com/HongruZhao/ComplexGramHafnians/blob/95ab10dc594ac92207054413220ae9fd2adab08c/docs/PAPER_COMPARISON.md), and [recorded build and axiom audit](https://github.com/HongruZhao/ComplexGramHafnians/blob/95ab10dc594ac92207054413220ae9fd2adab08c/verification/STATUS.md). Revised `theorem2_3` corresponds to deposited Theorem 2.2. |
+
+## Submission policy — separate from the manuscript chronology
+
+| Source | Effective date | Locator and purpose |
+| --- | --- | --- |
+| [arXiv: Fair Moderation, Equitable Access, and AI: arXiv's Updated Rate Limit Policy](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/) | **October 1, 2026** | Announcement and full FAQ: two submissions per calendar month per submitter, across all categories; three total active submissions at any time, a limit in place since 2024; coauthors may coordinate submissions, with only the submitting account affected. |
+| [arXiv moderation: submission rate](https://info.arxiv.org/help/moderation/index.html#submission-rate) | Current policy checked October 2, 2026 (UTC) | States the monthly and active limits and links the announcement. arXiv may also require a particular author to further limit their submission rate. |
+
+The October 1 policy update is recorded for context. It does not establish the cause of the manuscript's September moderation hold.
 
 ## Companion papers and historical background
 
@@ -59,6 +70,6 @@ Primary sources for the [research narrative](README.md) and [dated chronology](C
 
 My arXiv submission and administrative events are recorded in the [chronology](CONCURRENT_TIMELINE.md). The numbered receipts describe the August 26 / September 1 stage under 7994335 and the new September 9 stage under 8055779.
 
-Receipt images in this private repository: [September 1, 7994335](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-01-7994335.png) · [September 9, 8055779](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-09-8055779.png).
+Receipt images in this repository: [September 1, 7994335](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-01-7994335.png) · [September 9, 8055779](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-09-8055779.png).
 
 Additional retained records for *Two Routes*: the **7994183** acknowledgment prints **September 1, 2026, 00:39:01 EST**, identifies **five pages and one figure**, and names the independent complex symmetric reference in its abstract. The Overleaf history screenshot shows the titled project on **September 1**, with a **6:28 am** entry adding `main.tex`, `references.bib`, and the figure. These are displayed times from my records, distinct from the linked public archive's UTC timestamp.

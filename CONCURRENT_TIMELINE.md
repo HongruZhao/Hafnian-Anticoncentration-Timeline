@@ -1,13 +1,15 @@
 # Research and Submission Timeline for Hafnian Anticoncentration
 
+**Update — October 1, 2026 (US Eastern): [arXiv:2610.00112](https://arxiv.org/abs/2610.00112) is now publicly available; submitted September 9, 2026.**
+
 **Hongru Zhao**  
-**Last updated: September 30, 2026**
+**Last updated: October 2, 2026 (UTC)**
 
 This chronology follows the earlier literature, the talk that inspired me, my weak-anticoncentration solution, the complex and real small-ball results, and their submissions and releases. The [README](README.md) gives the research narrative; the [source index](SOURCES.md) supplies version-specific locators.
 
-My complex-Gaussian work preceded my real-Gaussian paper. The sequence begins with code completion on August 25 and an initial complex-Gaussian submission on August 26. It continues through an updated submission and public Lean release on September 1, a reorganized submission on September 9, and the public manuscript deposit on September 20.
+My complex-Gaussian work preceded my real-Gaussian paper. The sequence begins with code completion on August 25 and an initial complex-Gaussian submission on August 26. It continues through an updated submission and public Lean release on September 1, a reorganized submission on September 9, the public manuscript deposit on September 20, and public arXiv availability on October 1 (US Eastern).
 
-Times are UTC unless an entry explicitly quotes a displayed time from my records. Public papers, version histories, and archive metadata are linked at each entry and collected in the [source index](SOURCES.md). My submission acknowledgments, Overleaf history, removal requests, and account-status dates come from my retained records.
+Times are UTC unless an entry explicitly identifies another timezone or quotes a displayed time from my records. Public papers, version histories, and archive metadata are linked at each entry and collected in the [source index](SOURCES.md). My submission acknowledgments, Overleaf history, removal requests, and account-status dates come from my retained records.
 
 ## Chronology
 
@@ -192,7 +194,7 @@ The [first site commit](https://github.com/yuxuanzhang1995/yuxuanzhang1995.githu
 
 Priyanshu Pant submitted **[“Anticoncentration of Complex Gaussian Hafnians”](https://arxiv.org/abs/2609.35019)** at **12:18:39 UTC**. The [introduction, p. 3](https://arxiv.org/pdf/2609.35019v1#page=3), acknowledges concurrent Zhao work covering the complex symmetric Gaussian ensemble. **Reference [9]** points to my **[September 11 hiding v2](https://arxiv.org/abs/2609.01008v2)**, which combines the two September 1 manuscripts. Its [**Eq. (3.4), p. 4**](https://arxiv.org/pdf/2609.01008v2#page=4), cites the complex companion and carries forward the independent complex bound in *Two Routes* **Eq. (8)**. My companion's [**Theorem 2.2 and Corollary 2.4**](https://zenodo.org/records/22856033) give the shifted small-ball bound and its polynomial specialization. Pant's paper also develops product-Gamma and negative-moment results.
 
-### September 30, 2026: Public correction comment and current arXiv status
+### September 30, 2026: Public correction comment and arXiv status recorded that day
 
 At **18:12:56 UTC**, I posted a comment in the quantum-open-problems discussion identifying the September 20 manuscript, its independent complex-Gaussian theorem and corollary, and the verification materials. I asked the maintainers to review the result, add the preprint to the progress record and references, and assess the entry's status and attribution.
 
@@ -200,9 +202,19 @@ The comment also explains the numbering: **Theorem 2.2 in the September 20 main 
 
 The comment is in **issue #92**, another candidate report concerning the catalog problem. The catalog still displays **“Unsolved”** as of September 30.
 
-My arXiv dashboard still shows **8055779** as **on hold** on September 30. The earlier **7994335** was removed on September 8; the current hold belongs to the new submission acknowledged on September 9.
+My arXiv dashboard still showed **8055779** as **on hold** on September 30. The earlier **7994335** was removed on September 8; the hold recorded that day belonged to the new submission acknowledged on September 9.
 
 Sources: [public correction comment](https://github.com/Naixu-Guo/quantum-open-problems/issues/92#issuecomment-5917023518) · [QIQCOP entry](https://qiqc-op.com/problem/op_55be40726cdf7304/).
+
+### October 1, 2026 (US Eastern): Public arXiv availability
+
+My **[“Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry”](https://arxiv.org/abs/2610.00112)** is now publicly available as **arXiv:2610.00112**, authored by **Hongru Zhao**, in **math.PR** with a **quant-ph** cross-list. Its public v1 history retains **September 9, 2026, 07:19:22 UTC** as the submission timestamp. The retained acknowledgment for **8055779** is dated **07:19:23 UTC** that day; the one-second difference distinguishes the submission metadata from the acknowledgment time.
+
+October 1 is the public-availability date in US Eastern time. Public access was checked on October 2 UTC, while it was still October 1 in US Eastern. The abstract page does not separately display the exact announcement timestamp. The [official announcement schedule](https://info.arxiv.org/help/availability.html) uses US Eastern time; an October 1 announcement at 20:00 EDT corresponds to October 2 at 00:00 UTC. The original September 9 submission date is not evidence that the manuscript was public on September 9.
+
+The earlier **7994335** submission and removal, the September 9 **8055779** receipt, the September hold records, and the September 20 Zenodo manuscript release are preserved as distinct events.
+
+Sources: [public arXiv record and v1 history](https://arxiv.org/abs/2610.00112) · [availability and announcement schedule](https://info.arxiv.org/help/availability.html) · [September 9 receipt](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-09-8055779.png).
 
 ## How the companion results fit together
 
@@ -227,8 +239,12 @@ Quesada, Arrazola, and Killoran explicitly use **“Hafnian-anti-concentration c
 
 The complex-Gaussian manuscript follows two arXiv submission stages:
 
-**August 26 initial submission 7994335 → September 1 update → September 4 removal request → September 8 removal confirmed → September 9 new submission 8055779 → September 17 hold confirmed → September 20 public Zenodo release → September 30 still on hold.**
+**August 26 initial submission 7994335 → September 1 update → September 4 removal request → September 8 removal confirmed → September 9 new submission 8055779 → September 17 hold confirmed → September 20 public Zenodo release → September 30 still on hold → October 1 (US Eastern) publicly available as arXiv:2610.00112.**
 
 The public record also connects the project through the September 1 complex and Two Routes Lean archives and hiding-v1 citation, the September 6 Lean update, and the September 11 combined hiding-v2 statement and citation. The separate Two Routes submission **7994183** and its September 1 Overleaf history document another part of that development sequence. My dated independent complex result precedes the September 10 catalog entry and the later Zhang and Pant manuscripts.
+
+## Separate submission-policy note — effective October 1, 2026
+
+The [official October 1 announcement and FAQ](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/) set a limit of **two submissions per calendar month per submitter**, across all categories, alongside **three total active submissions at any time**. Coauthors may coordinate who submits a jointly authored paper: only the submitter's limits are affected. The three-active-submission limit has existed since 2024. This October 1 policy update is not evidence of the cause of the September moderation hold.
 
 [^dates]: The [Lean v1.0.0 archive](https://zenodo.org/records/22102635) lists August 25, 2026, as its publication date. I completed the Lean code that day and released it publicly on September 1. Zenodo created the record on September 1, 2026, at 06:30:38 UTC. arXiv history timestamps record submissions, which can precede public announcements.

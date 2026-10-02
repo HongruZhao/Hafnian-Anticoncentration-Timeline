@@ -1,6 +1,18 @@
 # Research and Submission Timeline for Hafnian Anticoncentration
 
-**Hongru Zhao · September 30, 2026**
+**Update — October 1, 2026 (US Eastern): [arXiv:2610.00112](https://arxiv.org/abs/2610.00112) is now publicly available; submitted September 9, 2026.**
+
+**Hongru Zhao · Updated October 2, 2026 (UTC)**
+
+My paper, *Local Anticoncentration for Gaussian Boson Sampling via Conditional Wishart Geometry*, is now publicly accessible on arXiv. Its [v1 submission history](https://arxiv.org/abs/2610.00112) records **September 9, 2026, 07:19:22 UTC**. That timestamp records the original submission, not public availability on September 9. The earlier receipts and the September 20 Zenodo release remain separate events in the chronology below.
+
+**Date note:** October 1 uses US Eastern time. Public access was checked on October 2 UTC, while it was still October 1 in US Eastern. The abstract page does not separately display the exact announcement timestamp. arXiv's [announcement schedule](https://info.arxiv.org/help/availability.html) uses US Eastern time; an October 1 announcement at 20:00 EDT corresponds to October 2 at 00:00 UTC.
+
+## Submission-policy note — effective October 1, 2026
+
+arXiv's [official policy announcement and FAQ](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/) limit each **submitter** to **two submissions per calendar month** and **three total active submissions at any time**, across all categories. The limits apply to the submitting account; a submission does not count against its coauthors' limits, and the FAQ permits coauthors to coordinate submissions. The three-active-submission limit has been in place since 2024.
+
+This policy note is separate from the manuscript's chronology. The October 1 update does not establish why the manuscript was on hold in September.
 
 ## 2017–2025: The question and the moment literature
 
@@ -73,6 +85,7 @@ My complex manuscript went through two arXiv submission stages:
 | September 17 | arXiv Technical Support confirmed in its reply that **8055779** was on hold pending a moderator decision. |
 | September 20 | While **8055779** remained on hold, I released the manuscript on [Zenodo](https://zenodo.org/records/22856033) because of the prolonged delay. |
 | September 30 | My dashboard still showed **8055779** on hold. |
+| October 1 (US Eastern) | The manuscript is publicly available as [arXiv:2610.00112](https://arxiv.org/abs/2610.00112), with its original September 9 v1 submission timestamp. |
 
 The original receipt images are linked here: [September 1 — 7994335](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-01-7994335.png) · [September 9 — 8055779](https://github.com/HongruZhao/Hafnian-Anticoncentration-Timeline/blob/main/assets/submission-receipts/2026-09-09-8055779.png). The [detailed chronology](CONCURRENT_TIMELINE.md) retains the UTC timestamps and the separate submission identifiers.
 
